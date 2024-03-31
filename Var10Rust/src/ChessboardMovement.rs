@@ -1,5 +1,3 @@
-mod SumOfDigits;
-
 use std::io;
 
 fn check_movement(N: i32, M: i32, s: &str) -> String {
@@ -45,6 +43,8 @@ fn check_movement(N: i32, M: i32, s: &str) -> String {
 
 fn main() {
     // Пример использования функции
+    println!("Введите в формате (Высота Ширина Ходы(caps))");
+
     let mut input = String::new();
 
     io::stdin().read_line(&mut input).expect("Failed to read line");
