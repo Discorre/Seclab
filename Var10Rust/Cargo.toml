@@ -6,9 +6,9 @@ authors = ["Egor <egorich.mih05@gmail.com>"]
 
 [[bin]]
 name = "Var10Rust"
-path = "src/ChessboardMovement.rs"
+#path = "src/ChessboardMovement.rs"
 #path = "src/WaterBottles.rs"
-#path = "src/SumOfDigits.rs"
+path = "src/SumOfDigits.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
